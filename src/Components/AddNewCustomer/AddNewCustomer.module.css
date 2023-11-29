@@ -1,0 +1,46 @@
+.close_btn {
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+.modal_header {
+  width: 100%;
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3em;
+}
+.modal_header > h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.modal {
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal button {
+  background-color: green;
+  padding: 0.5em 0;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.modal a {
+  color: #57bc90;
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+.auth_modal .modal-content {
+  border-radius: 31px;
+  border: 0;
+}
+.modal {
+  background: #000;
+  backdrop-filter: blur(25px);
+}

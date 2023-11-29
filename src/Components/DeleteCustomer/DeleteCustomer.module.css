@@ -1,0 +1,56 @@
+.close_btn {
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+.modal_header {
+  width: 100%;
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3em;
+}
+.modal_header > h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #000;
+  font-size: 1.8em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.modal_header p {
+  text-align: center;
+}
+.modal {
+  padding: 3em 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+}
+
+.modal button:first-child {
+  background-color: #a5a5af;
+  padding: 0.5em 0;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 1em;
+  width: 50%;
+}
+
+.modal button:nth-child(2) {
+  background-color: #d80000;
+  width: 50%;
+  padding: 0.5em 0;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 1em;
+}
